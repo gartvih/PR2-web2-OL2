@@ -87,7 +87,7 @@ var map = new ol.Map({
 
 
     var searchLayer = new SearchLayer({
-      layer: lyr__2building_cut_2,
+      layer: lyr_BuildingMERC_2,
       colName: 'address',
       zoom: 10,
       collapsed: true,
@@ -99,7 +99,7 @@ var map = new ol.Map({
     .getElementsByTagName('button')[0].className +=
     ' fa fa-binoculars';
     
-map.getView().fit([6505314.610793, 6662092.459362, 6511028.913114, 6665143.785844], map.getSize());
+map.getView().fit([6504033.515993, 6659714.273994, 6511926.280493, 6665816.926958], map.getSize());
 
 var NO_POPUP = 0
 var ALL_FIELDS = 1
